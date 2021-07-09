@@ -30,7 +30,7 @@ public class Estadistica {
             sumaDesviacion += Math.pow(valores[x]- media, 2);
         }
 
-        double desviacion = Math.sqrt(sumaDesviacion / (valorTotal - 1) );
+        double desviacion = Math.sqrt(sumaDesviacion / valorTotal);
 
         System.out.printf("El valor de la media es %.2f y con una desviacion estandar de %.2f\n", media, desviacion);
     }
