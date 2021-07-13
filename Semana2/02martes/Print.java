@@ -2,7 +2,7 @@ public class Print {
     
     private Print(){}
 
-    public static void ln(String message){
+    public static void ln(Object message){
         System.out.println(message);
     }
 
