@@ -13,11 +13,13 @@ public class Error {
             double d1 = sc.nextDouble();
 
             System.out.println("El numero recibido es " + d1);
+            
 
         } catch (Exception e) {
             System.out.println("No se adminten otros valores que no sean numeros");
             JOptionPane.showMessageDialog(null, "Solo se reciben numeros");
         }
+        
 
     }
 }
