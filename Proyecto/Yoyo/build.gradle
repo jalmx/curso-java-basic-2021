@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'Yoyo.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // jsoup HTML parser library @ https://jsoup.org/
+    implementation         'org.jsoup:jsoup:1.14.1'
+    testImplementation     'junit:junit:4.13'
+}

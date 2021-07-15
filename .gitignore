@@ -1,2 +1,4 @@
 *.class
 .vscode
+/Proyecto/Yoyo/.gradle/
+/Proyecto/Yoyo/build/
