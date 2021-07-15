@@ -35,6 +35,7 @@ public class Save {
             return true;
             
         }catch(Exception e){
+            e.printStackTrace();
             return false;
         }//termina el catch
                
